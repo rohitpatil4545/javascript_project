@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+   <link rel="icon" href="Ro-Image.jpg">
+    <title>Loader</title> 
+    <style>
+         html,body{
+            height: 100%;
+            width: 100%;
+         } 
+         body{
+           display: flex;
+           justify-content: center;
+           align-items: center; 
+           background-color: rgb(135, 127, 127);
+        } 
+         #loader{
+            height: 100px;
+            width: 100px; 
+            border-radius: 50%;
+            border: 5px solid #ddd;
+            border-top-color:#333; 
+            animation: rotate 1s infinite;
+         }  
+         @keyframes rotate {
+            100%{
+                rotate: 360deg;
+            }
+         }
+    </style>
+</head>
+<body>
+     <div id="loader"></div>
+</body>
+</html>
